@@ -1,0 +1,2277 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-07-18 09:11:54 -0500
+Served asset /rails.png - 200 OK (6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 09:20:03 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Compiled home.css  (27ms)  (pid 1112)
+Compiled application.css  (63ms)  (pid 1112)
+Compiled jquery.js  (3ms)  (pid 1112)
+Compiled jquery_ujs.js  (0ms)  (pid 1112)
+Compiled home.js  (203ms)  (pid 1112)
+Compiled application.js  (274ms)  (pid 1112)
+Completed 200 OK in 427ms (Views: 426.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-18 09:20:04 -0500
+Served asset /jquery.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-18 09:20:04 -0500
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-18 09:20:04 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-18 09:20:04 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-18 09:20:04 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-18 09:20:04 -0500
+Served asset /home.css - 304 Not Modified (33ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 10:46:40 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (65.6ms)
+Completed 200 OK in 118ms (Views: 117.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-18 10:46:40 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-18 10:46:40 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-18 10:46:40 -0500
+Served asset /application.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-18 10:46:40 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-18 10:46:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-18 10:46:40 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 13:09:17 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (57.8ms)
+Completed 500 Internal Server Error in 68ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 2)):
+    3: <% require 'net/ftp' %>
+    4: 
+    5: URL: <br />
+    6: <%= text_field %>
+  app/views/home/index.html.erb:6:in `_app_views_home_index_html_erb__4424561741529317967_70278985219160'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 13:11:38 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 57ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-18 13:11:38 -0500
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-18 13:11:38 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-18 13:11:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-18 13:11:38 -0500
+Served asset /home.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-18 13:11:38 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-18 13:11:38 -0500
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 13:19:40 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-18 13:19:40 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-18 13:19:40 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-18 13:19:40 -0500
+Served asset /home.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-18 13:19:40 -0500
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-18 13:19:40 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-18 13:19:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 13:30:25 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (46.4ms)
+Completed 500 Internal Server Error in 55ms
+
+ActionView::Template::Error (undefined local variable or method `url' for #<#<Class:0x007fedb582f500>:0x007fedb5afba90>):
+    19: </tr>
+    20: </table>
+    21: 
+    22: <% ftp = Net::FTP.new(url, username, password) %>
+  app/views/home/index.html.erb:22:in `_app_views_home_index_html_erb___920148110871574396_70329467900180'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 13:32:10 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (41.0ms)
+Completed 500 Internal Server Error in 50ms
+
+ActionView::Template::Error (getaddrinfo: nodename nor servname provided, or not known):
+    19: </tr>
+    20: </table>
+    21: 
+    22: <% ftp = Net::FTP.new('ftp://63.85.225.35/', 'clfcm', 'NFA$1985') %>
+  app/views/home/index.html.erb:22:in `new'
+  app/views/home/index.html.erb:22:in `_app_views_home_index_html_erb___899169297217641973_70106298808040'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 13:34:46 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (43.6ms)
+Completed 500 Internal Server Error in 53ms
+
+ActionView::Template::Error (getaddrinfo: nodename nor servname provided, or not known):
+    19: </tr>
+    20: </table>
+    21: 
+    22: <% ftp = Net::FTP.new('ftp://63.85.225.35', 'clfcm', 'NFA$1985') %>
+  app/views/home/index.html.erb:22:in `new'
+  app/views/home/index.html.erb:22:in `_app_views_home_index_html_erb__2604731869497625090_70262467593580'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 13:45:21 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1044.0ms)
+Completed 500 Internal Server Error in 1053ms
+
+ActionView::Template::Error (getaddrinfo: nodename nor servname provided, or not known):
+    19: </tr>
+    20: </table>
+    21: 
+    22: <% ftp = Net::FTP.new('ftp://63.85.225.35/TRADESCX_20120416.CSV', 'clfcm', 'NFA$1985') %>
+  app/views/home/index.html.erb:22:in `new'
+  app/views/home/index.html.erb:22:in `_app_views_home_index_html_erb___2381536776640070612_70340385242020'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.5ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 13:48:30 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (37.6ms)
+Completed 500 Internal Server Error in 49ms
+
+ActionView::Template::Error (getaddrinfo: nodename nor servname provided, or not known):
+    19: </tr>
+    20: </table>
+    21: 
+    22: <% ftp = Net::FTP.new('ftp://63.85.225.35/TRADESCX_20120416.CSV') %>
+  app/views/home/index.html.erb:22:in `new'
+  app/views/home/index.html.erb:22:in `_app_views_home_index_html_erb__2505802926720477915_70121965630620'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.4ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 13:50:11 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (39.5ms)
+Completed 500 Internal Server Error in 48ms
+
+ActionView::Template::Error (getaddrinfo: nodename nor servname provided, or not known):
+    19: </tr>
+    20: </table>
+    21: 
+    22: <% ftp = Net::FTP.open('ftp://63.85.225.35/TRADESCX_20120416.CSV') %>
+  app/views/home/index.html.erb:22:in `_app_views_home_index_html_erb___3949996908140695839_70208511766580'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 13:53:22 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (76691.1ms)
+Completed 500 Internal Server Error in 76701ms
+
+ActionView::Template::Error (No route to host - connect(2)):
+    19: </tr>
+    20: </table>
+    21: 
+    22: <% ftp = Net::FTP.new('ftp.netlab.co.jp') %>
+  app/views/home/index.html.erb:22:in `new'
+  app/views/home/index.html.erb:22:in `_app_views_home_index_html_erb___2173748887948626025_70212533158340'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.4ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 13:57:47 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 63ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-18 13:57:48 -0500
+Served asset /home.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-18 13:57:48 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-18 13:57:48 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-18 13:57:48 -0500
+Served asset /application.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-18 13:57:48 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-18 13:57:48 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 13:58:38 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-18 13:58:38 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-18 13:58:38 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-18 13:58:38 -0500
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-18 13:58:38 -0500
+Served asset /jquery.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-18 13:58:39 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-18 13:58:39 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 13:59:05 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (96.2ms)
+Completed 500 Internal Server Error in 105ms
+
+ActionView::Template::Error (getaddrinfo: nodename nor servname provided, or not known):
+    19: </tr>
+    20: </table>
+    21: 
+    22: <%= ftp = Net::FTP.new('63.85.225.35test') %>
+  app/views/home/index.html.erb:22:in `new'
+  app/views/home/index.html.erb:22:in `_app_views_home_index_html_erb___897802852632666303_70359974299920'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:03:03 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-18 14:03:03 -0500
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-18 14:03:03 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-18 14:03:03 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-18 14:03:03 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-18 14:03:03 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-18 14:03:03 -0500
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:04:03 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (109.8ms)
+Completed 500 Internal Server Error in 119ms
+
+ActionView::Template::Error (getaddrinfo: nodename nor servname provided, or not known):
+    19: </tr>
+    20: </table>
+    21: 
+    22: <%= ftp = Net::FTP.new('63.85.225.35/TRADESCS_20120416.CSV', 'clfcm', 'NFA$1985') %>
+  app/views/home/index.html.erb:22:in `new'
+  app/views/home/index.html.erb:22:in `_app_views_home_index_html_erb__632073057447248545_70180401805140'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.6ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:05:39 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (52.9ms)
+Completed 500 Internal Server Error in 62ms
+
+ActionView::Template::Error (500 Invalid PORT Command.
+):
+    21: 
+    22: <% ftp = Net::FTP.new('63.85.225.35', 'clfcm', 'NFA$1985') %>
+    23: 
+    24: <%= ftp.getbinaryfile('TRADESCS_20120416.CSV') %>
+  app/views/home/index.html.erb:24:in `_app_views_home_index_html_erb__4164838618728106469_70351650740300'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.5ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:12:11 -0500
+Processing by HomeController#index as HTML
+ERROR: compiling _app_views_home_index_html_erb__1680568760673860252_70266255841460 RAISED /Users/kevinoconnell/rails_projects/ftp_example/app/views/home/index.html.erb:23: syntax error, unexpected ',', expecting ')'
+ ftp.login ('clfcm', 'NFA$1985') 
+                    ^
+/Users/kevinoconnell/rails_projects/ftp_example/app/views/home/index.html.erb:23: syntax error, unexpected ')', expecting keyword_end
+ ftp.login ('clfcm', 'NFA$1985') 
+                                ^
+Function body:           def _app_views_home_index_html_erb__1680568760673860252_70266255841460(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "home/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>FTP Example</h1>
+
+'); require 'net/ftp' 
+@output_buffer.safe_concat('
+<table>
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url"></td>
+</tr>
+
+<tr>
+<td>Username:</td>
+<td><input type="text" name="username"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="text" name="password"></td>
+</tr>
+</table>
+
+'); ftp = Net::FTP.new('63.85.225.35') 
+ ftp.login ('clfcm', 'NFA$1985') 
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/template.rb:285:in `module_eval'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/template.rb:285:in `compile'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/template.rb:233:in `compile!'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/template.rb:142:in `block in render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications.rb:125:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/template.rb:141:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:414:in `_run__560231607148966360__process_action__2402941163963464719__callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/base.rb:121:in `process'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal.rb:246:in `block in action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.3/lib/active_record/query_cache.rb:64:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `_run__4605538134718664978__call__3323739633534121186__callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.3/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.3/lib/rails/rack/logger.rb:16:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.3/lib/rails/engine.rb:479:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.3/lib/rails/application.rb:220:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered home/index.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (/Users/kevinoconnell/rails_projects/ftp_example/app/views/home/index.html.erb:23: syntax error, unexpected ',', expecting ')'
+ ftp.login ('clfcm', 'NFA$1985') 
+                    ^
+/Users/kevinoconnell/rails_projects/ftp_example/app/views/home/index.html.erb:23: syntax error, unexpected ')', expecting keyword_end
+ ftp.login ('clfcm', 'NFA$1985') 
+                                ^):
+    20: </table>
+    21: 
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login ('clfcm', 'NFA$1985') %>
+  actionpack (3.2.3) lib/action_view/template.rb:285:in `module_eval'
+  actionpack (3.2.3) lib/action_view/template.rb:285:in `compile'
+  actionpack (3.2.3) lib/action_view/template.rb:233:in `compile!'
+  actionpack (3.2.3) lib/action_view/template.rb:142:in `block in render'
+  activesupport (3.2.3) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.3) lib/action_view/template.rb:141:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.3) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:414:in `_run__560231607148966360__process_action__2402941163963464719__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__4605538134718664978__call__3323739633534121186__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.3ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (45.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:13:01 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 71ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-18 14:13:01 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-18 14:13:01 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-18 14:13:01 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-18 14:13:01 -0500
+Served asset /application.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-18 14:13:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-18 14:13:01 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:20:38 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 74ms (Views: 73.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-18 14:20:38 -0500
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-18 14:20:38 -0500
+Served asset /application.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-18 14:20:38 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-18 14:20:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-18 14:20:38 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-18 14:20:38 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:21:44 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (49.2ms)
+Completed 500 Internal Server Error in 59ms
+
+ActionView::Template::Error (can't convert Fixnum into String):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <% file = ftp.getbinaryfile('TRADESCS_20120416.CSV', 201) %>
+    26: 
+    27: <%= file %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb___2144152047269071312_70169868263680'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.4ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:23:42 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (50.2ms)
+Completed 500 Internal Server Error in 64ms
+
+ActionView::Template::Error (can't convert Fixnum into String):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <%= ftp.getbinaryfile('TRADESCS_20120416.CSV', 201) %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb__2442181627178292709_70226058107780'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.3ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:23:51 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.7ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (can't convert Fixnum into String):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <%= ftp.getbinaryfile('TRADESCS_20120416.CSV', 201) %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb__2442181627178292709_70226058107780'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:24:21 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (57.7ms)
+Completed 500 Internal Server Error in 66ms
+
+ActionView::Template::Error (can't convert Fixnum into String):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <% ftp.getbinaryfile('TRADESCS_20120416.CSV', 201) %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb___667327691671053724_70111006869060'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:25:13 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 70ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-18 14:25:14 -0500
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-18 14:25:14 -0500
+Served asset /home.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-18 14:25:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-18 14:25:14 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-18 14:25:14 -0500
+Served asset /application.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-18 14:25:14 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:25:43 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (52.2ms)
+Completed 500 Internal Server Error in 61ms
+
+ActionView::Template::Error (can't convert Fixnum into String):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <% ftp.getbinaryfile('TRADESCS_20120416.CSV', 201) %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb___3799658458591030307_70238465943220'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.5ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:26:43 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (52.5ms)
+Completed 500 Internal Server Error in 61ms
+
+ActionView::Template::Error (500 Invalid PORT Command.
+):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <% ftp.getbinaryfile('TRADESCS_20120416.CSV') %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb__87779070542153573_70229546041540'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:27:44 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (49.2ms)
+Completed 500 Internal Server Error in 60ms
+
+ActionView::Template::Error (can't convert Fixnum into String):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <% ftp.getbinaryfile('TRADESCS_20120416.CSV', 201) %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb__2647605435227034943_70248977438420'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:28:43 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (48.7ms)
+Completed 500 Internal Server Error in 58ms
+
+ActionView::Template::Error (can't convert Fixnum into String):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <% ftp.getbinaryfile('TRADESCS_20120416.CSV', 1024) %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb__1430692307512610429_70276899994560'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:29:49 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (52.8ms)
+Completed 500 Internal Server Error in 62ms
+
+ActionView::Template::Error (can't convert Fixnum into String):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <% ftp.gettextfile('TRADESCS_20120416.CSV', 201) %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb__3339013783028648590_70358050359840'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.3ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:31:34 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (553.5ms)
+Completed 500 Internal Server Error in 562ms
+
+ActionView::Template::Error (Is a directory - ../):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <% ftp.gettextfile('TRADESCS_20120416.CSV', '../') %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb__1299899969951143584_70116042166480'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:32:23 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (66.3ms)
+Completed 500 Internal Server Error in 75ms
+
+ActionView::Template::Error (No such file or directory - ):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <% ftp.gettextfile('TRADESCS_20120416.CSV', '') %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb___3855293020569703467_70187499022200'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.5ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:34:29 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (54.6ms)
+Completed 500 Internal Server Error in 65ms
+
+ActionView::Template::Error (No such file or directory - ../../../trade_files/):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <% ftp.gettextfile('TRADESCS_20120416.CSV', '../../../trade_files/') %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb__267582910368813058_70174484598120'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:38:23 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (50.3ms)
+Completed 500 Internal Server Error in 59ms
+
+ActionView::Template::Error (Is a directory - trade_files/):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <% ftp.gettextfile('TRADESCS_20120416.CSV', 'trade_files/') %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb___4156340844611160960_70242012658560'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:39:08 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (60.3ms)
+Completed 500 Internal Server Error in 69ms
+
+ActionView::Template::Error (500 Invalid PORT Command.
+):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <% ftp.gettextfile('TRADESCS_20120416.CSV', 'trade_files/trades.csv') %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb__3185388827870424195_70096184036100'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.7ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:40:18 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (52.3ms)
+Completed 500 Internal Server Error in 61ms
+
+ActionView::Template::Error (wrong number of arguments (3 for 2)):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <% ftp.gettextfile('TRADESCS_20120416.CSV', 'trade_files/trades.csv', 201) %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb__1974630004071766009_70188092692200'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:41:21 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (53.4ms)
+Completed 500 Internal Server Error in 62ms
+
+ActionView::Template::Error (500 Invalid PORT Command.
+):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <% ftp.getbinaryfile('TRADESCS_20120416.CSV', 'trade_files/trades.csv', 201) %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb__3230299125874357376_70146057992020'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:44:13 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (77.2ms)
+Completed 500 Internal Server Error in 86ms
+
+ActionView::Template::Error (500 Invalid PORT Command.
+):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: 
+    25: <% ftp.getbinaryfile('TRADESCS_20120416.CSV', 'trade_files/trades.csv') %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb__237037473349561263_70224150986080'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.5ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:47:16 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (55.0ms)
+Completed 500 Internal Server Error in 64ms
+
+ActionView::Template::Error (500 Invalid PORT Command.
+):
+    22: <% ftp = Net::FTP.new('63.85.225.35') %>
+    23: <% ftp.login('clfcm', 'NFA$1985') %>
+    24: <% ftp.passive %>
+    25: <% ftp.getbinaryfile('TRADESCS_20120416.CSV', 'trade_files/trades.csv') %>
+  app/views/home/index.html.erb:25:in `_app_views_home_index_html_erb__2940250588536338218_70330934428880'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 14:56:06 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (51.2ms)
+Completed 500 Internal Server Error in 61ms
+
+ActionView::Template::Error (500 Invalid PORT Command.
+):
+    23: 
+    24: <% ftp.login('clfcm', 'NFA$1985') %>
+    25: 
+    26: <% ftp.getbinaryfile('TRADESCS_20120416.CSV', 'trade_files/trades.csv') %>
+  app/views/home/index.html.erb:26:in `_app_views_home_index_html_erb__3081979030236114930_70255107976520'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-07-18 16:22:56 -0500
+
+ActionController::RoutingError (No route matches [GET] "/projects"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 16:23:01 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (67.8ms)
+Completed 500 Internal Server Error in 71ms
+
+ActionView::Template::Error (500 Invalid PORT Command.
+):
+    21: 
+    22: <% ftp = Net::FTP.new('63.85.225.35', 'clfcm', 'NFA$1985') %>
+    23: 
+    24: <% ftp.getbinaryfile('TRADESCS_20120416.CSV', 'trade_files/trades.csv') %>
+  app/views/home/index.html.erb:24:in `_app_views_home_index_html_erb___3004304269458270489_70306569854160'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 16:24:29 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (150.2ms)
+Completed 200 OK in 202ms (Views: 201.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-18 16:24:29 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-18 16:24:29 -0500
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-18 16:24:29 -0500
+Served asset /home.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-18 16:24:29 -0500
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-18 16:24:29 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-18 16:24:29 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 16:32:39 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (385.0ms)
+Completed 200 OK in 436ms (Views: 435.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-18 16:32:40 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-18 16:32:40 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-18 16:32:40 -0500
+Served asset /application.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-18 16:32:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-18 16:32:40 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-18 16:32:40 -0500
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 16:46:05 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (410.0ms)
+Completed 200 OK in 462ms (Views: 461.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-18 16:46:06 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-18 16:46:06 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-18 16:46:06 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-18 16:46:06 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-18 16:46:06 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-18 16:46:06 -0500
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 16:47:33 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (666.3ms)
+Completed 200 OK in 719ms (Views: 718.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-18 16:47:34 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-18 16:47:34 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-18 16:47:34 -0500
+Served asset /application.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-18 16:47:34 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-18 16:47:34 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-18 16:47:34 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 16:52:33 -0500
+Processing by HomeController#index as HTML
+ERROR: compiling _app_views_home_index_html_erb__2688485407226888103_70204632947640 RAISED /Users/kevinoconnell/rails_projects/ftp_example/app/views/home/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+...d= ( form.button 'Download' ftp.getbinaryfile('TRADESCS_2012...
+...                               ^
+Function body:           def _app_views_home_index_html_erb__2688485407226888103_70204632947640(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "home/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>FTP Example</h1>
+
+'); require 'net/ftp' 
+@output_buffer.safe_concat('
+<table>
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url"></td>
+</tr>
+
+<tr>
+<td>Username:</td>
+<td><input type="text" name="username"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="text" name="password"></td>
+</tr>
+</table>
+
+'); ftp = Net::FTP.new('63.85.225.35', 'clfcm', 'NFA$1985') 
+@output_buffer.safe_concat('
+'); ftp.passive = true 
+@output_buffer.safe_concat('
+');@output_buffer.append= ( form.button 'Download' ftp.getbinaryfile('TRADESCS_20120416.CSV', 'trade_files/trades.csv') );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+'); ftp.close 
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/template.rb:285:in `module_eval'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/template.rb:285:in `compile'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/template.rb:233:in `compile!'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/template.rb:142:in `block in render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications.rb:125:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/template.rb:141:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:414:in `_run__4295992395732417296__process_action__1616493340063172092__callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/base.rb:121:in `process'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal.rb:246:in `block in action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.3/lib/active_record/query_cache.rb:64:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `_run__3369099311889266126__call__1816333621816290839__callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.3/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.3/lib/rails/rack/logger.rb:16:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.3/lib/rails/engine.rb:479:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.3/lib/rails/application.rb:220:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (/Users/kevinoconnell/rails_projects/ftp_example/app/views/home/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+...d= ( form.button 'Download' ftp.getbinaryfile('TRADESCS_2012...
+...                               ^):
+    23: 
+    24: <% ftp.passive = true %>
+    25: 
+    26: <%= form.button 'Download' ftp.getbinaryfile('TRADESCS_20120416.CSV', 'trade_files/trades.csv') %>
+    27: 
+    28: <% ftp.close %>
+  actionpack (3.2.3) lib/action_view/template.rb:285:in `module_eval'
+  actionpack (3.2.3) lib/action_view/template.rb:285:in `compile'
+  actionpack (3.2.3) lib/action_view/template.rb:233:in `compile!'
+  actionpack (3.2.3) lib/action_view/template.rb:142:in `block in render'
+  activesupport (3.2.3) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.3) lib/action_view/template.rb:141:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.3) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:414:in `_run__4295992395732417296__process_action__1616493340063172092__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__3369099311889266126__call__1816333621816290839__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.4ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (45.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-18 16:53:26 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (387.3ms)
+Completed 200 OK in 437ms (Views: 436.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-18 16:53:27 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-18 16:53:27 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-18 16:53:27 -0500
+Served asset /application.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-18 16:53:27 -0500
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-18 16:53:27 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-18 16:53:27 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-19 08:08:38 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (56.6ms)
+Completed 500 Internal Server Error in 68ms
+
+ActionView::Template::Error (undefined method `model_name' for Net::FTP:Class):
+    19: </tr>
+    20: </table>
+    21: 
+    22: <%= button_to "Download", ftp = Net::FTP.new('63.85.225.35', 'clfcm', 'NFA$1985') %>
+    23: 
+    24: <% ftp.passive = true %>
+    25: 
+  app/views/home/index.html.erb:22:in `_app_views_home_index_html_erb___1150882846139778780_70272953901100'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.3ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-19 08:29:00 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (405.5ms)
+Completed 500 Internal Server Error in 415ms
+
+ActionView::Template::Error (undefined local variable or method `upload' for #<#<Class:0x007fee4c4b6350>:0x007fee4c0bcb00>):
+    30: <% tradesFile = "trade_files/trades.csv" %>
+    31: 
+    32: <% File.open(tradesFile, "w+") do |f| %>
+    33:    <%= f.write(upload['tradesFile'].read) %>
+    34: <% end %>
+  app/views/home/index.html.erb:33:in `block in _app_views_home_index_html_erb__2873648193820610438_70330727572060'
+  app/views/home/index.html.erb:32:in `open'
+  app/views/home/index.html.erb:32:in `_app_views_home_index_html_erb__2873648193820610438_70330727572060'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.4ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-19 08:40:23 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (385.5ms)
+Completed 200 OK in 436ms (Views: 435.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-19 08:40:23 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-19 08:40:23 -0500
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-19 08:40:23 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-19 08:40:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (40ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-19 08:40:23 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-19 08:40:23 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-19 08:42:33 -0500
+Processing by HomeController#index as HTML
+ERROR: compiling _app_views_home_index_html_erb___2207630884916408990_70314755703200 RAISED /Users/kevinoconnell/rails_projects/ftp_example/app/views/home/index.html.erb:34: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/kevinoconnell/rails_projects/ftp_example/app/views/home/index.html.erb:36: syntax error, unexpected $end, expecting keyword_end
+Function body:           def _app_views_home_index_html_erb___2207630884916408990_70314755703200(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "home/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>FTP Example</h1>
+
+'); require 'net/ftp' 
+@output_buffer.safe_concat('
+<table>
+<tr>
+<td>URL:</td>
+<td><input type="text" name="url"></td>
+</tr>
+
+<tr>
+<td>Username:</td>
+<td><input type="text" name="username"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="text" name="password"></td>
+</tr>
+</table>
+
+'); ftp = Net::FTP.new('63.85.225.35', 'clfcm', 'NFA$1985') 
+@output_buffer.safe_concat('
+'); ftp.passive = true 
+@output_buffer.safe_concat('
+'); ftp.getbinaryfile('TRADESCS_20120416.CSV', 'trade_files/trades.csv') 
+@output_buffer.safe_concat('
+'); ftp.close 
+@output_buffer.safe_concat('
+'); tradesFile = "trade_files/trades.csv" 
+@output_buffer.safe_concat('
+');@output_buffer.append=  File.open(tradesFile, "r").each do |line| @output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/template.rb:285:in `module_eval'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/template.rb:285:in `compile'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/template.rb:233:in `compile!'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/template.rb:142:in `block in render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications.rb:125:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/template.rb:141:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:414:in `_run__3820491190352234490__process_action__4340270234126471241__callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `instrument'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/base.rb:121:in `process'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_controller/metal.rb:246:in `block in action'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.3/lib/active_record/query_cache.rb:64:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `_run__388605410383692399__call__3166222209264316232__callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.3/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.3/lib/rails/rack/logger.rb:16:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.3/lib/rails/engine.rb:479:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.3/lib/rails/application.rb:220:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (/Users/kevinoconnell/rails_projects/ftp_example/app/views/home/index.html.erb:34: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/kevinoconnell/rails_projects/ftp_example/app/views/home/index.html.erb:36: syntax error, unexpected $end, expecting keyword_end):
+    31: 
+    32: <%= File.open(tradesFile, "r").each do |line| %>
+  actionpack (3.2.3) lib/action_view/template.rb:285:in `module_eval'
+  actionpack (3.2.3) lib/action_view/template.rb:285:in `compile'
+  actionpack (3.2.3) lib/action_view/template.rb:233:in `compile!'
+  actionpack (3.2.3) lib/action_view/template.rb:142:in `block in render'
+  activesupport (3.2.3) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.3) lib/action_view/template.rb:141:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.3) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:414:in `_run__3820491190352234490__process_action__4340270234126471241__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__388605410383692399__call__3166222209264316232__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (41.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-19 08:43:14 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (376.4ms)
+Completed 200 OK in 432ms (Views: 431.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-19 08:43:14 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-19 08:43:14 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-19 08:43:14 -0500
+Served asset /application.js - 304 Not Modified (58ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-19 08:43:14 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-19 08:43:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-19 08:43:14 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-19 08:47:14 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (590.9ms)
+Completed 500 Internal Server Error in 603ms
+
+ActionView::Template::Error (undefined method `read' for "trade_files/trades.csv":String):
+    30: <% tradesFile = "trade_files/trades.csv" %>
+    31: 
+    32: <% File.open(tradesFile, "r").each do |line| %>
+    33:    <%= line.write(tradesFile.read) %> 
+    34: <% end %>
+  app/views/home/index.html.erb:33:in `block in _app_views_home_index_html_erb___972957955986694418_70262942204540'
+  app/views/home/index.html.erb:32:in `each'
+  app/views/home/index.html.erb:32:in `_app_views_home_index_html_erb___972957955986694418_70262942204540'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.1ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-19 08:50:31 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (494.6ms)
+Completed 200 OK in 546ms (Views: 545.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-19 08:50:32 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-19 08:50:32 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-19 08:50:32 -0500
+Served asset /application.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-19 08:50:32 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-19 08:50:32 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-19 08:50:32 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-19 08:51:44 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (807.1ms)
+Completed 200 OK in 855ms (Views: 854.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-19 08:51:46 -0500
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-19 08:51:46 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-19 08:51:46 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-19 08:51:46 -0500
+Served asset /application.js - 304 Not Modified (38ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-19 08:51:46 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-19 08:51:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-19 08:53:44 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (324.3ms)
+Completed 200 OK in 376ms (Views: 375.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-19 08:53:45 -0500
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-19 08:53:45 -0500
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-19 08:53:45 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-19 08:53:45 -0500
+Served asset /jquery.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-19 08:53:45 -0500
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-19 08:53:45 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-19 09:05:42 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (522.7ms)
+Completed 200 OK in 580ms (Views: 579.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-19 09:05:43 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-19 09:05:43 -0500
+Served asset /application.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-19 09:05:43 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-19 09:05:43 -0500
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-19 09:05:43 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-19 09:05:43 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-19 09:06:15 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (545.8ms)
+Completed 200 OK in 595ms (Views: 594.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-19 09:06:16 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-19 09:06:16 -0500
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-19 09:06:16 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-19 09:06:16 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-19 09:06:16 -0500
+Served asset /home.js - 304 Not Modified (38ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-19 09:06:16 -0500
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-19 09:06:22 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (451.0ms)
+Completed 200 OK in 456ms (Views: 456.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-19 09:06:22 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-19 09:06:22 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-19 09:06:22 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-19 09:06:22 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-19 09:06:22 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-19 09:06:22 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-19 09:10:14 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (454.5ms)
+Completed 200 OK in 505ms (Views: 504.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-19 09:10:15 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-19 09:10:15 -0500
+Served asset /jquery.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-19 09:10:15 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-19 09:10:15 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-19 09:10:15 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-19 09:10:15 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-19 09:16:30 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (289.2ms)
+Completed 200 OK in 342ms (Views: 341.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-19 09:16:31 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-19 09:16:31 -0500
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-19 09:16:31 -0500
+Served asset /application.js - 304 Not Modified (45ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-19 09:16:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-19 09:16:31 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-19 09:16:31 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/trade_files/trades.csv" for 127.0.0.1 at 2012-07-19 09:16:32 -0500
+
+ActionController::RoutingError (No route matches [GET] "/trade_files/trades.csv"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/trade_files/trades.csv" for 127.0.0.1 at 2012-07-19 09:18:32 -0500
+
+ActionController::RoutingError (No route matches [GET] "/trade_files/trades.csv"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/kevinoconnell/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/kevinoconnell/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-19 09:18:43 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (498.2ms)
+Completed 200 OK in 549ms (Views: 548.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-19 09:18:44 -0500
+Served asset /application.js - 304 Not Modified (41ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-19 09:18:44 -0500
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-19 09:18:44 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-19 09:18:44 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-19 09:18:44 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-19 09:18:44 -0500
+Served asset /home.js - 304 Not Modified (1ms)

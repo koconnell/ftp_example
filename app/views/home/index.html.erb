@@ -1,0 +1,19 @@
+<h1>FTP Example</h1>
+
+<% require 'net/ftp' %>
+
+<% ftp = Net::FTP.new('63.85.225.35', 'clfcm', 'NFA$1985') %>
+
+<% ftp.passive = true %>
+
+<% ftp.getbinaryfile('TRADESCS_20120416.CSV', 'trade_files/trades.csv') %>
+
+<% ftp.close %>
+
+<% tradesFile = "trade_files/trades.csv" %>
+
+<br />
+
+<% File.open(tradesFile, "r").each do |line| %>
+   <%= line %>
+<% end %>
